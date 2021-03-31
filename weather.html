@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boostrap csss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- font awesome-->
+    <link href="font/css/all.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body style="background-color: #0a1f44; color: #fff;">
+
+    <section class="top-banner justify-content-center mb-20">
+        <div class="container">
+          <h1 class="heading text-center">Simple Weather App</h1>
+            <div class="input-group">
+                <input class="input form-control pb-10" type="text" placeholder="Search for a city">
+                <div class="input-group-append">
+                    <button id="Btn" class="btn btn-outline-light" type="submit">Submit</button>
+                </div> 
+            </div>  
+        </div>
+      </section>
+
+      <section class="display text-center">
+        <h2 class="name"></h2>
+          <h4 class="temp"></h4>
+          <h5 class="desc"></h5>
+        </div>
+      </section>
+    
+      <script src="js/weather.js"></script>
+</body>
+</html>
