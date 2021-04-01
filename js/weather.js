@@ -18,11 +18,16 @@ function showWeather(e){
         let humidValue = data.main.humidity;
         let pressureValue = data.main.pressure;
 
-        document.querySelector('.name').innerHTML = 'Country: ' +countryValue;
-        document.querySelector('.temp').innerHTML = 'Temperature: ' +tempValue;
-        document.querySelector('.desc').innerHTML = 'Description: ' +descValue;
-        document.querySelector('.hum').innerHTML = 'Humidity: ' +humidValue;
-        document.querySelector('.pres').innerHTML = 'Pressure: ' +pressureValue;
+        let display = document.createElement('div');
+
+    
+
+
+        document.querySelector('.name').innerHTML = 'City: ' +countryValue+'.';
+        document.querySelector('.temp').innerHTML = 'Temperature: ' +tempValue +' 0c.';
+        document.querySelector('.desc').innerHTML = 'Description: ' +descValue+'.';
+        document.querySelector('.hum').innerHTML = 'Humidity: ' +humidValue +' g/m3.';
+        document.querySelector('.pres').innerHTML = 'Pressure: ' +pressureValue +' pa.';
 
  
     })

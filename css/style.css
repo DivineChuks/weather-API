@@ -1,3 +1,11 @@
+
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+
 .top-banner{
     padding-top: 50px;
 }
@@ -10,14 +18,27 @@
     padding-bottom: 10px;
 }
 
-.form-group{
-    margin-top: 50px;
-}
-
-input {
-    -webkit-appearance: none;
-  }
-
   .display{
       margin-top: 10px;
+  }
+
+  .heading{
+      margin-bottom: 10px;
+  }
+  .input-group{
+    margin-top: 100px;
+}
+
+
+
+
+
+  @media (max-width:767px){
+      .heading{
+          font-size: 30px;
+      }
+
+      .input-group{
+          margin-top: 150px;
+      }
   }
